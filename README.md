@@ -1,7 +1,7 @@
 artemis-odb-contrib
 ===================
 
-[![Build Status](https://travis-ci.org/DaanVanYperen/artemis-odb-contrib.svg)](https://travis-ci.org/DaanVanYperen/artemis-odb-contrib)
+[![Build Status](https://travis-ci.org/gaconkzk/artemis-odb-contrib.svg)](https://travis-ci.org/gaconkzk/artemis-odb-contrib)
 
 Drop-in extensions for artemis-odb. Event bus, scheduled operations, deferred systems, profiler, abstract and prefab
 systems, components and networking. Well, eventually anyway.
@@ -18,7 +18,7 @@ with all fancy features, check out these instead:
 - [playn-artemis-quickstart](https://github.com/DaanVanYperen/playn-artemis-quickstart)
 
 ### Library Versions
-Artemis-odb 1.0.x, (Optional) LibGDX 1.6+, tested with 1.7.
+Artemis-odb 2.0.x, (Optional) LibGDX 1.9+, tested with 1.9.2
 
 ### License
 The primary license for this code is MIT. 
