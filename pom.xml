@@ -3,14 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.mostlyoriginal.artemis-odb</groupId>
+    <groupId>com.github.gaconkzk</groupId>
     <artifactId>contrib-parent</artifactId>
     <version>1.1.0</version>
     <packaging>pom</packaging>
     <name>contrib-parent</name>
-    <description>Drop-in extensions for artemis-odb. Prefab systems, components, networking, events!
+    <description>Drop-in extensions for artemis-odb. Prefab systems, components, networking, events! Forked from https://github.com/DaanVanYperen/artemis-odb-contrib
     </description>
-    <url>https://github.com/DaanVanYperen/artemis-odb-contrib</url>
+    <url>https://github.com/gaconkzk/artemis-odb-contrib</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
