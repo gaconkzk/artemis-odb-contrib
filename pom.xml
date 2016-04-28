@@ -20,9 +20,9 @@
     </properties>
 
     <scm>
-        <url>https://github.com/DaanVanYperen/artemis-odb-contrib</url>
-        <connection>scm:git:git@github.com:DaanVanYperen/artemis-odb-contrib.git</connection>
-        <developerConnection>scm:git:git@github.com:DaanVanYperen/artemis-odb-contrib.git</developerConnection>
+        <url>https://github.com/gaconkzk/artemis-odb-contrib</url>
+        <connection>scm:git:git@github.com:gaconkzk/artemis-odb-contrib.git</connection>
+        <developerConnection>scm:git:git@github.com:gaconkzk/artemis-odb-contrib.git</developerConnection>
     </scm>
 
     <licenses>
@@ -101,6 +101,18 @@
             </roles>
             <properties>
                 <twitter>@DaanRedblade</twitter>
+            </properties>
+        </developer>
+        <developer>
+            <name>Vincent To</name>
+            <email>gaconkzk@gmail.com</email>
+            <id>gaconkzk</id>
+            <timezone>1</timezone>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <properties>
+                <twitter>@gaconkzk</twitter>
             </properties>
         </developer>
     </developers>
