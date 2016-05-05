@@ -3,6 +3,8 @@ artemis-odb-contrib
 
 [![Build Status](https://travis-ci.org/gaconkzk/artemis-odb-contrib.svg)](https://travis-ci.org/gaconkzk/artemis-odb-contrib)
 
+[![Download](https://api.bintray.com/packages/gaconkzk/maven/artemis-odb-contrib/images/download.svg) ](https://bintray.com/gaconkzk/maven/artemis-odb-contrib/_latestVersion)
+
 Drop-in extensions for artemis-odb. Event bus, scheduled operations, deferred systems, profiler, abstract and prefab
 systems, components and networking. Well, eventually anyway.
 
