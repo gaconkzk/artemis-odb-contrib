@@ -2,9 +2,3 @@ language: android
 android:
   components:
   - build-tools-20.0.0
-deploy:
-  provider: bintray
-  file: descriptor.json
-  user: gaconkzk
-  key:
-    secure: q3mHvSJI0ryqXFaPucP0deC7RQuql5pAdJtP/GkcZLOctvAiY25PLsA91y02GDPHdX/979BXHQle6NwCCuxbU0l/Qy+hjcIPl3NsoVR50vRrKZpFKODEHwR7JhERORkjyJQ1zPed0vlaM2EINYstFF2H5R8/0iMxEuF8+ba1LR3G4SX5MjTKGgm4e5fnkoMjr8B1eYvDnAtOAtnsYwV0VNDhSKOzy1Nrd89G1UU5pXQ5Dv9AdvE7yVcCrKYRQxS+G7JyZBD6SK2bOW4MMBn5UT/A2XOUT4N6ErLBxpAz8af0LzgmMVhdqJkZwCzGgb0c9xOjvwV2yhwPSOxAavtrk5FV88w/IShQUEwqxPiPj8mOXujDemHopoNM9fOBlOo+gZoZPimtaL3llvCXDsr0MkBFaAc8E1Vqml8HVItb9yNnUqJaGwvLDl2A/t0uEmY9upuD/EWH1mxEu5rFjRr3IvWhgIHbJOm/Tg5TZevZ8NC7u7w7aTarQDRg3zsfAd9rwRSVxUb50/idrDym654cdhFun1rZ3a25e/mUlXdfQ94bXUiyGlrHJfcPzXIJz6WIPbyWSEQQU32LIb5JtYCEi+2b4P/66cD/0p+nfQxbuEWngjVyUzz+s+ksUHgz1ChBWtkgrwk8v+/y96Wi4gnATAjzS6KVthHp8I10Ti1190s=
