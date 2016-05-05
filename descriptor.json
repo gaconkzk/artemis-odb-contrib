@@ -27,11 +27,11 @@
     "version": {
         "name": "1.1.0",
         "desc": "This is the latest version of artemis-odb-contrib of DaanVanYperen",
-        "released": "2015-08-02",
-        "vcs_tag": "v1.1.0",
+        "released": "2016-05-06",
+        "vcs_tag": "v1.1.0-fix",
         "attributes": [{"name": "VerAtt1", "values" : ["VerVal1"], "type": "string"},
-                       {"name": "VerAtt2", "values" : [1, 1, 0], "type": "number"},
-                       {"name": "VerAtt3", "values" : ["2015-08-02T19:43:37+0100"], "type": "date"}],
+                       {"name": "VerAtt2", "values" : [1, 1, 0.1], "type": "number"},
+                       {"name": "VerAtt3", "values" : ["2016-05-06T05:39:37+0700"], "type": "date"}],
         "gpgSign": false
     },
 
