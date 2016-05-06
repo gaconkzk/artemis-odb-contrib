@@ -32,13 +32,13 @@ Some stubs from LibGDX are licensed under Apache 2.0.
 
 ```xml
 <dependency>
-  <groupId>com.github.gaconkzk</groupId>
+  <groupId>com.github.gaconkzk.artemis-odb-contrib</groupId>
   <artifactId>contrib-core</artifactId>
   <version>1.1.0</version>
 </dependency>
 
 <dependency>
-  <groupId>com.github.gaconkzk</groupId>
+  <groupId>com.github.gaconkzk.artemis-odb-contrib</groupId>
   <artifactId>contrib-eventbus</artifactId>
   <version>1.1.0</version>
 </dependency>
@@ -48,7 +48,7 @@ Some stubs from LibGDX are licensed under Apache 2.0.
 
 ```groovy
 dependencies { 
-    compile "com.github.gaconkzk:contrib-core:1.1.0"
-    compile "com.github.gaconkzk:contrib-eventbus:1.1.0"
+    compile "com.github.gaconkzk.artemis-odb-contrib:contrib-core:1.1.0"
+    compile "com.github.gaconkzk.artemis-odb-contrib:contrib-eventbus:1.1.0"
 }
 ```
