@@ -136,10 +136,10 @@
     </repositories>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
+        <repository>
+            <id>bintray-repo-maven</id>
+            <url>https://api.bintray.com/maven/gaconkzk/maven/artemis-odb-contrib/;publish=1</url>
+        </repository>
     </distributionManagement>
 
     <profiles>
@@ -217,11 +217,9 @@
             </build>
         </profile>
     </profiles>
-
     <build>
-
         <plugins>
-            <plugin>
+            <!--<plugin>
               <groupId>org.sonatype.plugins</groupId>
               <artifactId>nexus-staging-maven-plugin</artifactId>
               <version>1.6.2</version>
@@ -231,7 +229,7 @@
                 <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                 <autoReleaseAfterClose>false</autoReleaseAfterClose>
               </configuration>
-            </plugin>
+            </plugin>-->
 
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
