@@ -2,6 +2,7 @@ package net.mostlyoriginal.api.system.delegate;
 
 import com.artemis.Aspect;
 import com.artemis.BaseEntitySystem;
+import com.artemis.World;
 
 /**
  * Actor for a principal system.
@@ -39,7 +40,16 @@ public abstract class DeferredEntityProcessingSystem extends BaseEntitySystem {
         super(aspect);
         this.aspect = aspect;
         this.principal = principal;
-        setEnabled(false);
+	// Set enable should not be called here
+	// It should be called manually
+        // setEnabled(false);
+    }
+
+    @Override
+    protected void setWorld( World world ) {
+	super.setWorld( world );
+
+	setEnabled( false );
     }
 
     /**

@@ -1,6 +1,7 @@
 package net.mostlyoriginal.api.system.core;
 
 import com.artemis.BaseSystem;
+import com.artemis.World;
 
 /**
  * Headless system.
@@ -12,7 +13,15 @@ import com.artemis.BaseSystem;
 public class PassiveSystem extends BaseSystem {
 
     public PassiveSystem() {
-        setEnabled(false);
+        // Now we can't set enable at constructor
+        // setEnabled(false);
+    }
+
+    @Override
+    protected void setWorld( World world ) {
+        super.setWorld( world );
+
+        setEnabled( false );
     }
 
     @Override
